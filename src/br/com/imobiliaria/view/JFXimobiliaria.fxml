@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="501.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.imobiliaria.controller.JFXimobiliaria">
+   <children>
+      <TextField fx:id="tfProprietario" layoutX="40.0" layoutY="159.0">
+         <font>
+            <Font name="Ebrima" size="17.0" />
+         </font>
+      </TextField>
+      <Label layoutX="40.0" layoutY="107.0" prefHeight="52.0" prefWidth="174.0" text="Proprietário" textAlignment="CENTER">
+         <font>
+            <Font name="Ebrima" size="17.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tfCidade" layoutX="37.0" layoutY="262.0">
+         <font>
+            <Font name="Ebrima" size="17.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="tfArea" editable="false" layoutX="37.0" layoutY="362.0">
+         <font>
+            <Font name="Ebrima" size="17.0" />
+         </font>
+      </TextField>
+      <Button fx:id="bTriangulo" layoutX="379.0" layoutY="245.0" mnemonicParsing="false" onAction="#calcularTriangulo" prefHeight="33.0" prefWidth="193.0" style="-fx-background-color: #2761a3;" text="Triângulo" textFill="WHITE">
+         <font>
+            <Font name="Ebrima" size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="bQuadrado" layoutX="379.0" layoutY="134.0" mnemonicParsing="false" onAction="#calcularQuadrado" prefHeight="33.0" prefWidth="193.0" style="-fx-background-color: #2761a3;" text="Quadrado" textFill="WHITE">
+         <font>
+            <Font name="Ebrima" size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="bRetangulo" layoutX="379.0" layoutY="185.0" mnemonicParsing="false" onAction="#calcularRetangulo" prefHeight="33.0" prefWidth="193.0" style="-fx-background-color: #2761a3;" text="Retângulo" textFill="WHITE">
+         <font>
+            <Font name="Ebrima" size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="bLosango" layoutX="379.0" layoutY="355.0" mnemonicParsing="false" onAction="#calcularLosango" prefHeight="33.0" prefWidth="193.0" style="-fx-background-color: #2761a3;" text="Losango" textFill="WHITE">
+         <font>
+            <Font name="Ebrima" size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="bCirculo" layoutX="379.0" layoutY="302.0" mnemonicParsing="false" onAction="#calcularCirculo" prefHeight="33.0" prefWidth="193.0" style="-fx-background-color: #2761a3;" text="Circulo" textFill="WHITE">
+         <font>
+            <Font name="Ebrima" size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="bSalvar" layoutX="88.0" layoutY="432.0" mnemonicParsing="false" onAction="#salvar" prefHeight="33.0" prefWidth="140.0" style="-fx-background-color: #6590c2;" text="Salvar" textFill="WHITE">
+         <font>
+            <Font name="Ebrima" size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="bFechar" layoutX="346.0" layoutY="432.0" mnemonicParsing="false" onAction="#fechar" prefHeight="33.0" prefWidth="140.0" style="-fx-background-color: #6590c2;" text="Fechar" textFill="WHITE">
+         <font>
+            <Font name="Ebrima" size="17.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutY="-2.0" prefHeight="80.0" prefWidth="608.0" style="-fx-background-color: #4373ab;" text="Imobiliaria" textFill="WHITE">
+         <font>
+            <Font name="Ebrima" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="40.0" layoutY="210.0" prefHeight="52.0" prefWidth="174.0" text="Cidade" textAlignment="CENTER">
+         <font>
+            <Font name="Ebrima" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="37.0" layoutY="310.0" prefHeight="52.0" prefWidth="174.0" text="Área do Terreno" textAlignment="CENTER">
+         <font>
+            <Font name="Ebrima" size="17.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
